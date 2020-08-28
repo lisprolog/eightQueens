@@ -1,0 +1,15 @@
+Java HillClimb RandomRestart Simluated
+Hill climb successes: 297
+Random restart successes: 2000
+Simulated Annealing successes: 2000
+
+0.1485
+Hill climbing:
+Nodes: 713608
+Percent successes: 15%
+Random Restart:
+Nodes: 4882472
+Percent successes: 100%
+Simulated Annealing:
+Nodes: 246035094
+Percent successes: 100%

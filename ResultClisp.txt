@@ -1,0 +1,15 @@
+CL-USER> (dotimes (n 14) (format t "The ~A-queens problem has ~A solutions.~%" n (length (n-queens n))))
+ The 0-queens problem has 0 solutions.
+ The 1-queens problem has 1 solutions.
+ The 2-queens problem has 0 solutions.
+ The 3-queens problem has 0 solutions.
+ The 4-queens problem has 2 solutions.
+ The 5-queens problem has 10 solutions.
+ The 6-queens problem has 4 solutions.
+ The 7-queens problem has 40 solutions.
+ The 8-queens problem has 92 solutions.
+ The 9-queens problem has 352 solutions.
+ The 10-queens problem has 724 solutions.
+ The 11-queens problem has 2680 solutions.
+ The 12-queens problem has 14200 solutions.
+ The 13-queens problem has 73712 solutions.

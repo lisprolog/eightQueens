@@ -1,0 +1,122 @@
+Cpp 
+1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 
+0 1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 0 0 
+0 0 1 0 0 0 0 0 
++++++++++++++++++++++++++++++++++++++++++++++++
+Clisp  10 Fast 11/12/13 Slow
+CL-USER> (dotimes (n 14) (format t "The ~A-queens problem has ~A solutions.~%" n (length (n-queens n))))
+ The 0-queens problem has 0 solutions.
+ The 1-queens problem has 1 solutions.
+ The 2-queens problem has 0 solutions.
+ The 3-queens problem has 0 solutions.
+ The 4-queens problem has 2 solutions.
+ The 5-queens problem has 10 solutions.
+ The 6-queens problem has 4 solutions.
+ The 7-queens problem has 40 solutions.
+ The 8-queens problem has 92 solutions.
+ The 9-queens problem has 352 solutions.
+ The 10-queens problem has 724 solutions.
+ The 11-queens problem has 2680 solutions.
+ The 12-queens problem has 14200 solutions.
+ The 13-queens problem has 73712 solutions.
+++++++++++++++++++++++++++++++++++++
+Scheme DrRacket Fast to 11
+(for-each show-queens '(1 2 3 4 5 6 7 8 9 10 11))
+(The 1 queens problem has 1 solutions.)
+(The 2 queens problem has 0 solutions.)
+(The 3 queens problem has 0 solutions.)
+(The 4 queens problem has 2 solutions.)
+(The 5 queens problem has 10 solutions.)
+(The 6 queens problem has 4 solutions.)
+(The 7 queens problem has 40 solutions.)
+(The 8 queens problem has 92 solutions.)
+(The 9 queens problem has 352 solutions.)
+(The 10 queens problem has 724 solutions.)
+(The 11 queens problem has 2680 solutions.)
++++++++++++++++++++++++++++++++++++++++
+Haskell Instantly
+[[7,4,2,9,5,10,8,6,3,1],[8,5,2,4,10,7,9,6,3,1],[5,8,2,4,10,7,9,6,3,1],[6,8,5,2,4,10,7,9,3,1],[7,5,2,8,10,3,9,6,4,1],[6,8,3,5,9,2,10,7,4,1],[6,8,5,2,9,3,10,7,4,1],[8,3,5,2,9,6,10,7,4,1],[9,6,3,5,2,8,10,7,4,1],[6,2,9,5,3,8,10,7,4,1],[6,3,9,2,5,8,10,7,4,1],[7,2,6,3,10,8,5,9,4,1],[5,8,6,3,10,2,7,9,4,1],[8,5,2,6,3,10,7,9,4,1]
+going on ...
+++++++++++++++++++++++++++++++++++++++++++
+Java EightQueensJAVAFX 
+++++++++++++++++++++++++++++++++++++++++++
+java EightQueens
+Java HillClimb RandomRestart Simluated
+Hill climb successes: 297
+Random restart successes: 2000
+Simulated Annealing successes: 2000
+
+0.1485
+Hill climbing:
+Nodes: 713608
+Percent successes: 15%
+Random Restart:
+Nodes: 4882472
+Percent successes: 100%
+Simulated Annealing:
+Nodes: 246035094
+Percent successes: 100%
+++++++++++++++++++++++++++++
+Perl 1 3
+...Q....
+.Q......
+......Q.
+..Q.....
+.....Q..
+.......Q
+....Q...
+Q.......
+
+....Q...
+.Q......
+...Q....
+......Q.
+..Q.....
+.......Q
+.....Q..
+Q.......
+going on ...
++++++++++++++++++++++++++++
+ruby Queens.rb > RubySolutions.txt
+
+There are 40 solutions for n = 7.
+
+Q......
+..Q....
+....Q..
+......Q
+.Q.....
+...Q...
+.....Q.
+going on ...
+++++++++++++++++++++++++++++
+python eight_queen_puzzle.py > PythonResult.txt
+Q . . . . . . . 
+. . . . Q . . . 
+. . . . . . . Q 
+. . . . . Q . . 
+. . Q . . . . . 
+. . . . . . Q . 
+. Q . . . . . . 
+. . . Q . . . . 
+going on...
+++++++++++++++++++++++++++++
+Clang ./eightQueensClang 7
+1: 1 total solutions
+2: 0 total solutions
+3: 0 total solutions
+4: 2 total solutions
+5: 10 total solutions
+6: 4 total solutions
+7: 40 total solutions
+++++++++++++++++++++++++++++
+swipl queens.pl
+    queens(4, Qs).
+   Qs = [3,1,4,2] ;
+
+   Qs = [2,4,1,3]
